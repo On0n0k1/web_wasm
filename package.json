@@ -1,0 +1,24 @@
+{
+  "name": "wasm-3d",
+  "version": "1.0.0",
+  "description": "Rust WASM 3D boilerplate",
+  "main": "public/index.js",
+  "scripts": {
+    "js-build": "export RUSTFLAGS=--cfg='web_sys_unstable_apis' && webpack --mode production",
+    "start": "export RUSTFLAGS=--cfg='web_sys_unstable_apis' && webpack-dev-server --port 9000 --open"
+  },
+  "keywords": [
+    "rust",
+    "wasm"
+  ],
+  "author": "Ajinkya Borade",
+  "license": "MIT",
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "^1.3.1",
+    "html-webpack-plugin": "^4.3.0",
+    "text-encoding": "^0.7.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
