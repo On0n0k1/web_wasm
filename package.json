@@ -1,7 +1,7 @@
 {
   "name": "web-wasm",
   "version": "1.0.0",
-  "description": "Rust WASM 3D boilerplate",
+  "description": "Rust WASM boilerplate",
   "main": "public/index.js",
   "scripts": {
     "js-build": "export RUSTFLAGS=--cfg='web_sys_unstable_apis' && webpack --mode production",
