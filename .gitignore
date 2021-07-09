@@ -12,9 +12,13 @@ Cargo.lock
 # Npm packages
 /node_modules
 
+# Node package lock
+package-lock.json
+
 # wasm-pack rust webassembly compiled files
 /pkg
 
 # Webpack webpage output
 /dist
+
 
